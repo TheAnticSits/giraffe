@@ -1,14 +1,12 @@
+import p1.MyClass;
 
 public class App {
 
     public static void main(String[] args) {
 
-        sayHi("Neth");
 
-    }
+        MyClass myClass = new MyClass();        
 
-    public static void sayHi(String name){
-        System.out.println("Hello " + name);
     }
 
 }
