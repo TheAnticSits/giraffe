@@ -10,11 +10,14 @@ public class App {
         System.out.println("  /  |");
         System.out.println(" /___|");*/
 
-        System.out.println("There once was a man named Tom,");
-        System.out.println("he was 40 years old.  He really liked");
-        System.out.println("the name Tom, but didn't like being 40.");
-        System.out.println("Most of his friends were also 40, and one");
-        System.out.println("of them was also named Tom.");
+        String characterName = "Dave";
+        int characterAge = 40;
+
+        System.out.println("There once was a man named " + characterName + ",");
+        System.out.println("he was " + characterAge +" years old.  He really liked");
+        System.out.println("the name " + characterName + ", but didn't like being " + characterAge + ".");
+        System.out.println("Most of his friends were also " + characterAge + ", and one");
+        System.out.println("of them was also named " + characterName + ".");
 
 }
 
