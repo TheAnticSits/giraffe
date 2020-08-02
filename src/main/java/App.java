@@ -3,13 +3,17 @@ import p1.MyClass;
 public class App {
 
     public static void main(String[] args) {
-//        System.out.println("Hello World");
+/*//      printing hello world
+        System.out.println("Hello World");*/
 
-/*        System.out.println("    /|");
+/*      //printing a shape
+        System.out.println("    /|");
         System.out.println("   / |");
         System.out.println("  /  |");
         System.out.println(" /___|");*/
 
+
+/*        //working with variables
         String characterName = "Dave";
         int characterAge = 20;
 
@@ -19,8 +23,13 @@ public class App {
         characterAge = 80;
         System.out.println("the name " + characterName + ", but didn't like being " + characterAge + ".");
         System.out.println("Most of his friends were also " + characterAge + ", and one");
-        System.out.println("of them was also named " + characterName + ".");
+        System.out.println("of them was also named " + characterName + ".");*/
 
+        //working with datatypes
+
+        String phrase = "To be or not to be";
+
+        System.out.println(phrase);
 }
 
 }
