@@ -25,7 +25,7 @@ public class App {
         System.out.println("Most of his friends were also " + characterAge + ", and one");
         System.out.println("of them was also named " + characterName + ".");*/
 
-        //working with datatypes
+/*        //working with datatypes
 
         String phrase = "To be or not to be";
         char grade = 'A';
@@ -37,7 +37,9 @@ public class App {
         System.out.println(age);
         System.out.println(gpa);
         System.out.println(grade);
-        System.out.println(isMale);
+        System.out.println(isMale);*/
+
+        
 
 }
 
