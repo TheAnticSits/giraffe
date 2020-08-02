@@ -28,10 +28,16 @@ public class App {
         //working with datatypes
 
         String phrase = "To be or not to be";
+        char grade = 'A';
         int age = 35;
+        double gpa = 2.7;
+        
 
         System.out.println(phrase);
         System.out.println(age);
+        System.out.println(gpa);
+        System.out.println(grade);
+
 }
 
 }
