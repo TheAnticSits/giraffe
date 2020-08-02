@@ -31,12 +31,13 @@ public class App {
         char grade = 'A';
         int age = 35;
         double gpa = 2.7;
-        
+        boolean isMale = true;
 
         System.out.println(phrase);
         System.out.println(age);
         System.out.println(gpa);
         System.out.println(grade);
+        System.out.println(isMale);
 
 }
 
