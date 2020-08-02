@@ -28,8 +28,10 @@ public class App {
         //working with datatypes
 
         String phrase = "To be or not to be";
+        int age = 35;
 
         System.out.println(phrase);
+        System.out.println(age);
 }
 
 }
