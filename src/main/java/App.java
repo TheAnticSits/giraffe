@@ -39,7 +39,42 @@ public class App {
         System.out.println(grade);
         System.out.println(isMale);*/
 
-        
+/*        //working with Strings
+        //new line
+//        System.out.println("Giraffe \nAcademy");
+        //adding quotations within a string
+//        System.out.println("Giraffe \"Academy\"");
+        //adding backslash
+//        System.out.println("Giraffe \\Academy");
+        //moving text to separate lines that still stay on same line in output
+*//*        System.out.println("Giraffe Academy " +
+                "adsdfa adfadfa");*//*
+        //variable strings
+       String phrase = "Giraffe Academy";
+        System.out.println(phrase);
+        //using methods within strings
+        System.out.println(phrase.toUpperCase());
+        System.out.println(phrase.toLowerCase());
+        System.out.println(phrase.length());
+        //boolean
+        System.out.println(phrase.contains("Academy"));
+        System.out.println(phrase.contains("dog"));
+        //find character at index starts with 0
+        System.out.println(phrase.charAt(1));
+        System.out.println(phrase.charAt(4));
+        //index of shows what index the character is at the first occurrence
+        System.out.println(phrase.indexOf("f"));
+        System.out.println(phrase.indexOf("affe"));
+        //last index of shows last occurence
+        System.out.println(phrase.lastIndexOf("a"));
+        //substring all the text including and after the index number
+        System.out.println(phrase.substring(8));
+        //adding another index number to find a piece that is desired parameters stops before the second parameter.
+        System.out.println(phrase.substring(8, 11));
+        //method within another method
+        System.out.println(phrase.substring(0, phrase.indexOf(" ")));
+        System.out.println(phrase.substring(0, phrase.indexOf("d")));*/
+
 
 }
 
