@@ -75,6 +75,38 @@ public class App {
         System.out.println(phrase.substring(0, phrase.indexOf(" ")));
         System.out.println(phrase.substring(0, phrase.indexOf("d")));*/
 
+        //working with numbers
+        System.out.println(3);
+        System.out.println(3+4);
+        System.out.println(3-4);
+        //truncates the decimal
+        System.out.println(3/4);
+        //changing datatype to a double for a decimal answer
+        System.out.println(3.0/4.0);
+        //Modulus gives the remainder
+        System.out.println(10%3);
+        //using variables in numbers
+        int myInt = 3;
+        double myDouble = -5.5;
+        System.out.println(5 + myInt);
+        //if you use a double and an int you get back a double
+        System.out.println(myDouble + myInt);
+        //Using MATH methods
+        //getting absolute value
+        System.out.println(Math.abs(myDouble));
+        //using power first is what you want to use and second is to the power of
+        System.out.println(Math.pow(myInt, 3));
+        //squareroot
+        System.out.println(Math.sqrt(36));
+        //find the smaller number or largest
+        System.out.println(Math.min(2, myDouble));
+        System.out.println(Math.max(myDouble, myInt));
+        //round decimal number
+        System.out.println(Math.round(myDouble));
+        //random
+        System.out.println(Math.random());
+
+
 
 }
 
