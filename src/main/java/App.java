@@ -75,7 +75,7 @@ public class App {
         System.out.println(phrase.substring(0, phrase.indexOf(" ")));
         System.out.println(phrase.substring(0, phrase.indexOf("d")));*/
 
-        //working with numbers
+/*        //working with numbers
         System.out.println(3);
         System.out.println(3+4);
         System.out.println(3-4);
@@ -104,7 +104,7 @@ public class App {
         //round decimal number
         System.out.println(Math.round(myDouble));
         //random
-        System.out.println(Math.random());
+        System.out.println(Math.random());*/
 
 
 
