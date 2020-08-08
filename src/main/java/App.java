@@ -6,12 +6,16 @@ public class App {
 
     public static void main(String[] args) {
 
-        //getting user input tutorial 9
+        
+
+/*        //getting user input tutorial 9
 
         Scanner keyboardInput = new Scanner(System.in);
         System.out.println("Enter Your Name: ");
         String name = keyboardInput.nextLine();
-        System.out.println("Hey " + name + "!");
+        System.out.println("Enter Your Age: ");
+        int age = keyboardInput.nextInt();
+        System.out.println("Hey " + name + " you are " + age + " years old!");*/
 
 /*//      printing hello world
         System.out.println("Hello World");*/
