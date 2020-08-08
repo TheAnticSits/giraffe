@@ -1,8 +1,15 @@
 import p1.MyClass;
 
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args) {
+
+        //getting user input tutorial 9
+
+        Scanner keyboardInput = new Scanner(System.in);
+
 /*//      printing hello world
         System.out.println("Hello World");*/
 
