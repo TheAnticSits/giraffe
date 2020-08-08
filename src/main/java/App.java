@@ -9,6 +9,9 @@ public class App {
         //getting user input tutorial 9
 
         Scanner keyboardInput = new Scanner(System.in);
+        System.out.println("Enter Your Name: ");
+        String name = keyboardInput.nextLine();
+        System.out.println("Hey " + name + "!");
 
 /*//      printing hello world
         System.out.println("Hello World");*/
