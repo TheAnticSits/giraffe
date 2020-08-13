@@ -6,13 +6,15 @@ public class App {
 
     public static void main(String[] args) {
 
+        /*//building a calculator tutorial 10
+
         Scanner keyboardInput = new Scanner(System.in);
         System.out.println("Enter in the first number: ");
         double num1 = keyboardInput.nextDouble();
         System.out.println("Enter in the second number: ");
         double num2 = keyboardInput.nextDouble();
         System.out.println(num1+num2);
-
+*/
 
 /*        //getting user input tutorial 9
 
