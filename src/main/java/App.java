@@ -9,9 +9,17 @@ public class App {
        // tutorial 11 making a madlib
         Scanner keyboardInput = new Scanner(System.in);
 
-        System.out.println("Roses are red \n"
-                + "Violets are Blue \n"
-                + "I love you");
+        System.out.println("Enter a color: ");
+        String color = keyboardInput.nextLine();
+        System.out.println("Enter a plural noun: ");
+        String pluralNoun = keyboardInput.nextLine();
+        System.out.println("Enter a celebrity: ");
+        String celebrity = keyboardInput.nextLine();
+
+
+        System.out.println("Roses are " + color + " \n"
+                + pluralNoun + " are Blue \n"
+                + "I love " + celebrity);
 
         /*//building a calculator tutorial 10
 
