@@ -6,6 +6,13 @@ public class App {
 
     public static void main(String[] args) {
 
+       // tutorial 11 making a madlib
+        Scanner keyboardInput = new Scanner(System.in);
+
+        System.out.println("Roses are red \n"
+                + "Violets are Blue \n"
+                + "I love you");
+
         /*//building a calculator tutorial 10
 
         Scanner keyboardInput = new Scanner(System.in);
