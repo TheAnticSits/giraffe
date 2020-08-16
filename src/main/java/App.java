@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args) {
 
-       // tutorial 11 making a madlib
+/*       // tutorial 11 making a madlib
         Scanner keyboardInput = new Scanner(System.in);
 
         System.out.println("Enter a color: ");
@@ -19,7 +19,7 @@ public class App {
 
         System.out.println("Roses are " + color + " \n"
                 + pluralNoun + " are Blue \n"
-                + "I love " + celebrity);
+                + "I love " + celebrity);*/
 
         /*//building a calculator tutorial 10
 
