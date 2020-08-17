@@ -6,6 +6,24 @@ public class App {
 
     public static void main(String[] args) {
 
+        //Tutorial 12 Arrays
+/*        // accessing and modifying arrays
+        String [] friends = {"Jim", "Karen", "Kevin"};
+
+        friends[0] = "Dwight";
+
+        System.out.println(friends[0]);
+        System.out.println(friends.length);*/
+
+/*        //creating a new array with values added later
+        String [] friends = new String[3];
+
+        friends[0] = "Pam";
+        friends[1] = "Jim";
+        friends[2] = "Karen";
+
+        System.out.println( friends[1]);*/
+
 /*       // tutorial 11 making a madlib
         Scanner keyboardInput = new Scanner(System.in);
 
