@@ -5,8 +5,18 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
+        //Tutorial 13 METHODS
 
-        //Tutorial 12 Arrays
+
+
+
+}
+
+public static void sayHi() {
+        
+}
+
+    //Tutorial 12 Arrays
 /*        // accessing and modifying arrays
         String [] friends = {"Jim", "Karen", "Kevin"};
 
@@ -160,9 +170,5 @@ public class App {
         System.out.println(Math.round(myDouble));
         //random
         System.out.println(Math.random());*/
-
-
-
-}
 
 }
