@@ -7,15 +7,15 @@ public class App {
     public static void main(String[] args) {
         //Tutorial 13 METHODS
         System.out.println("Top");
-        sayHi("Dave");
-        sayHi("Phyllis");
-        sayHi("angela");
+        sayHi("Dave", 38);
+        sayHi("Phyllis", 45);
+        sayHi("angela", 60);
         System.out.println("Bottom");
 
 }
 
-public static void sayHi(String name) {
-        System.out.println("Hello "+ name);
+public static void sayHi(String name, int age) {
+        System.out.println("Hello "+ name + " you are " + age);
 }
 
     //Tutorial 12 Arrays
