@@ -7,13 +7,13 @@ public class App {
     public static void main(String[] args) {
         //Tutorial 13 METHODS
 
-
+    sayHi();
 
 
 }
 
 public static void sayHi() {
-        
+        System.out.println("Hello Ken!");
 }
 
     //Tutorial 12 Arrays
