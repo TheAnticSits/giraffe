@@ -6,14 +6,16 @@ public class App {
 
     public static void main(String[] args) {
         //Tutorial 13 METHODS
-
-    sayHi();
-
+        System.out.println("Top");
+        sayHi("Dave");
+        sayHi("Phyllis");
+        sayHi("angela");
+        System.out.println("Bottom");
 
 }
 
-public static void sayHi() {
-        System.out.println("Hello Ken!");
+public static void sayHi(String name) {
+        System.out.println("Hello "+ name);
 }
 
     //Tutorial 12 Arrays
