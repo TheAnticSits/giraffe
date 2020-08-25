@@ -20,7 +20,14 @@ public class App {
         System.out.println("Your word is " + word.length() + " characters long.");
         System.out.println(word.toLowerCase() + " is your word in lowerCase.");
         System.out.println(word.toUpperCase() + " is your word in uppercase.");
-
+        String newWord = "";
+        int j = word.length();
+        for(int i = 1; i <= word.length(); i++){
+            newWord = newWord + word.indexOf(j);
+            j = j - 1;
+            System.out.println(word);
+        }
+        System.out.println(newWord);
 
 }
 
