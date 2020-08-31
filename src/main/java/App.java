@@ -20,12 +20,16 @@ public class App {
         System.out.println("Your word is " + word.length() + " characters long.");
         System.out.println(word.toLowerCase() + " is your word in lowerCase.");
         System.out.println(word.toUpperCase() + " is your word in uppercase.");
+        System.out.println("The third letter of your word is " + word.charAt(2));
         String newWord = "";
         int j = word.length();
         for(int i = 1; i <= word.length(); i++){
-            newWord = newWord + word.indexOf(j);
-            j = j - 1;
-            System.out.println(word);
+            newWord = newWord + word.charAt(j);
+            j = (j - 1);
+            if(j== -1){
+                break;
+            }
+            System.out.println(newWord);
         }
         System.out.println(newWord);
 
