@@ -22,16 +22,16 @@ public class App {
         System.out.println(word.toUpperCase() + " is your word in uppercase.");
         System.out.println("The third letter of your word is " + word.charAt(2));
         String newWord = "";
-        int j = word.length();
+        int j = word.length() -1;
         for(int i = 1; i <= word.length(); i++){
             newWord = newWord + word.charAt(j);
             j = (j - 1);
             if(j== -1){
                 break;
             }
-            System.out.println(newWord);
+
         }
-        System.out.println(newWord);
+        System.out.println("Your word backwards is " + newWord);
 
 }
 
